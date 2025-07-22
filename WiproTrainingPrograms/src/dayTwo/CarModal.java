@@ -1,4 +1,4 @@
-package dasyTwo;
+package dayTwo;
 
 public class CarModal {
 

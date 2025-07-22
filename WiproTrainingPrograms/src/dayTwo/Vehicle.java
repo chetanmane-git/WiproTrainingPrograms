@@ -1,4 +1,4 @@
-package dasyTwo;
+package dayTwo;
 
 class Vehicle1 {
 	void start() {
