@@ -1,4 +1,4 @@
-package dayTwo;
+package dayThree;
 
 public class Polymorphism {
 	public int add(int a,int b) {

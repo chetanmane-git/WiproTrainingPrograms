@@ -1,4 +1,4 @@
-package dayOne;
+package dayTwo;
 
 public class CommandLineArguments {
 	public static void main(String[] args) {
