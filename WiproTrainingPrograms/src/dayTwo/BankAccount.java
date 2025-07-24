@@ -1,4 +1,4 @@
-package dayThree;
+package dayTwo;
 
 public class BankAccount {
 	private String accHolderName;

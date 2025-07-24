@@ -1,4 +1,4 @@
-package dayTwo;
+package dayOne;
 
 public class CalculatorRuntimeData {
 

@@ -1,4 +1,4 @@
-package dayTwo;
+package dayOne;
 
 public class StaticMethod {
     public static int add(int x, int y) {
