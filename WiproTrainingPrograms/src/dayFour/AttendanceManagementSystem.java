@@ -23,7 +23,7 @@ public class AttendanceManagementSystem {
         System.out.println("\nMark your attendance (Present/Absent):");
         for (int i = 0; i < n; i++) {
             System.out.print(employeeNames[i] + ": ");
-            String input = scanner.nextLine().trim();
+            String input = scanner.nextLine();
             isPresent[i] = input.equalsIgnoreCase("Present");
         }
 

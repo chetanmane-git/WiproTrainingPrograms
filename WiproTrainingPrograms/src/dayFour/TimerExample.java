@@ -10,19 +10,14 @@ abstract class TaskRemainder {
 class MyReminder extends TaskRemainder {
 	@Override
 	void remaind() {
-		System.out.println(" Reminder: It's been 1 hour. Time to check your next task!");
+		System.out.println("One hr. done time to check next task.");
 	}
 }
 
-public class TimerExample {
-	public static void main(String[] args) {
-		MyReminder reminder = new MyReminder();
-		Timer timer = new Timer();
-
-		timer.scheduleAtFixedRate(new TimerTask() {					
-			public void run() {
-				reminder.remaind(); 
-			}
-		}, 0, 3600000); 
-	}
-}
+/*
+ * public class TimerExample { public static void main(String[] args) {
+ * MyReminder reminder = new MyReminder(); Timer timer = new Timer();
+ * 
+ * timer.scheduleAtFixedRate(new TimerTask() { public void run() {
+ * reminder.remaind(); } }, 1000, 3600); } }
+ */
