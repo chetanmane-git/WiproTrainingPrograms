@@ -17,7 +17,7 @@ public class CollectionsMap {
 		
 		System.out.println("Key Value Pairs:");
 		for(String key : m.keySet()) {
-			System.out.println(key + "   " + m.get(key));
+			System.out.println(key + "  " + m.get(key));
 		}
 	}
 }
