@@ -18,13 +18,16 @@ public class ComparableProgram {
 			}
 		};
 		ArrayList<Integer> num = new ArrayList();
+		num.add(30);
+		num.add(23);
 		num.add(23);
 		num.add(43);
 		num.add(56);
 		num.add(46);
 		num.add(89);
-
+		
+		System.out.println("Before Sorting:" + num);
 		Collections.sort(num, c);
-		System.out.println(num);
+		System.out.println("After sorting:" + num);
 	}
 }
