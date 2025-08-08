@@ -11,7 +11,7 @@ public class BufferWriterExample {
 			br.write("I am in text file.");
 			br.newLine();
 			br.close();
-			System.out.println("Written Successfully");s					
+			System.out.println("Written Successfully");					
 		}
 	}
 }
